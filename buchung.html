@@ -10,3 +10,72 @@
     
 </body>
 </html>
+
+<!DOCTYPE html
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kursbuchung</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">Kursbuchung</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1>Buchen Sie Ihr Sprachkurs im Kurs Rolling Linguas</h1>
+    <form id="bookingForm">
+    
+      <div class="mb-3">
+        <label for="gender" class="form-label"></label>
+        <select id="gender" class="form-select" required>
+          <option value="">Bitte auswählen</option>
+          <option value="Herr">Herr</option>
+          <option value="Frau">Frau</option>
+        </select>
+      </div>
+      <div class="mb-3">
+        <label for="name" class="form-label">Name</label>
+        <input type="name" class="form-control" id="name" required>
+      </div>
+      <div class="mb-3">
+        <label for="vorname" class="form-label">Vorname</label>
+        <input type="vorname" class="form-control" id="vorname" required>
+      </div>
+      <div class="mb-3">
+        <label for="strasse / nr." class="form-label">Strasse / Nr.</label>
+        <input type="strasse / nr." class="form-control" id="strasse / nr." required>
+      </div>
+      <div class="mb-3">
+        <label for="postleitzahl + wohnort" class="form-label">Postleitzahl + Wohnort</label>
+        <input type="postleitzahl + wohnort" class="form-control" id="postleitzahl + wohnort" required>
+      </div>
+      <div class="mb-3">
+        <label for="geburtsdatum" class="form-label">Geburtsdatum</label>
+        <input type="geburtsdatum" class="form-control" id="geburtsdatum" required>
+      </div>
+      <div class="mb-3">
+        <label for="telefon" class="form-label">Telefon</label>
+        <input type="telefon" class="form-control" id="telefon" required>
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">E-Mail</label>
+        <input type="email" class="form-control" id="email" required>
+      </div>
+      <button type="submit" class="btn btn-primary">Buchung abschließen</button>
+    </form>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
