@@ -1,17 +1,42 @@
+.Platz {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+
 .tuerkis-bg {
     background-color: rgb(37, 111, 111);
 }
 
 h1 {
-
     font-size: 60px;
+    margin-bottom: 20px;
 }
 
 .main-container {
-
-    margin-top: 120px;
+    margin-top: 80px;
 }
 
 p { 
     font-size: 25px;
+}
+
+.buchung-container {
+    margin-top: 80px;
+    margin-left: 255.5px;
+    margin-right: 255.5px;
+}
+
+.mb-3 {
+    padding-left: 12px;
+    padding-right: 12px;
+
+}
+.btn {
+    margin-left: 14px;
+}
+
+.Kommentar { 
+    margin-top: 20px;
 }
