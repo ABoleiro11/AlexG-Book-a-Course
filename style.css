@@ -1,6 +1,17 @@
 .tuerkis-bg {
     background-color: rgb(37, 111, 111);
 }
-.light-bg {
-    background-color: grey;
+
+h1 {
+
+    font-size: 60px;
+}
+
+.main-container {
+
+    margin-top: 120px;
+}
+
+p { 
+    font-size: 25px;
 }

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sprachauswahl</title>
+    <link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css">
+    <link rel="stylesheet"href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg tuerkis-bg">
+            <div class="container">
+            <a class="navbar-brand text-white" href="/kursbestaetigung.html">Kursbestätigung</a>
+            </div>
+        </nav>
+    </header>
+</head>
+
+    
+
+    <h1 class="neu">Kursbestätigung</h1>
+
+    <form>
+        <div>   
+        <label for="language">Sprache:</label>
+        <select id="language">
+            <option value="japanese">Japanisch</option>
+            <option value="chinese">Chinesisch</option>
+            <option value="portuguese">Portugiesisch</option>
+            <option value="english">Englisch</option>
+            <option value="german">Deutsch</option>
+        </select>
+        </div>
+    
+        <div>
+            <input type="checkbox" id="agreement" required>
+            <label for="agreement">Ich stimme den AGB zu</label>
+          </div>
+      
+          <div>
+            <label for="comments">Bemerkungen:</label>
+            <textarea id="comments" rows="4"></textarea>
+          </div>
+      
+          <button type="submit" class="btn btn-primary">Absenden</button>
+    </form>
+
+</body>    
+    
+</html>
