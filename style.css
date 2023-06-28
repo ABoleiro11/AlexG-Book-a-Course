@@ -1,8 +1,8 @@
 .Platz {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 80px;
 }
-
 
 
 .tuerkis-bg {
@@ -30,11 +30,6 @@ p {
     margin-right: 255.5px;
 }
 
-.bestaetigung-container {
-    margin-top: 80px;
-    margin-left: 255.5px;
-    margin-right: 255.5px;
-}
 
 .mb-3 {
     padding-left: 12px;
