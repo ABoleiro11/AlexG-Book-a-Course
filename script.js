@@ -1,26 +1,23 @@
 function validateForm() {
-    // if (false) return false;
-    // if (!true) return false;
-    if (!Vorname()) return false; // Formular hat Fehler
+    
+    if (!Vorname()) return false; 
     if (!Vorname()) return false;
     
-    return true; // Formular wurde korrekt ausgefüllt.
+    return true; 
 }
 
 function validateVorname() {
     let value = document.getElementById("vorname").value;
-    //          document = the html  
-    //                   getElementById = search for an element in the html 
-    //                                       value = what's the value of that element?
+    
     if (value === "") { // 'single quotes'
         // Fehlerfall
         setMessage1("Bitte den Vornamen eingeben.");
-        return false; // korrekte Eingabe
+        return false; 
     }
 
     sessionStorage.setItem("vorname", value);
 
-    return true; // korrekte Eingabe
+    return true; 
 }
 
 
@@ -30,12 +27,12 @@ function validateLastName() {
     if (value === "") { // 'single quotes'
         // Fehlerfall
         setMessage1("Bitte den Nachnamen eingeben.");
-        return false; // korrekte Eingabe
+        return false; 
     }
 
     sessionStorage.setItem("name", value);
 
-    return true; // korrekte Eingabe
+    return true; 
 }
 
 function setMessage1(value) {
@@ -49,8 +46,8 @@ function setMessage2(value)  {
 // ----------------------------------------------------------------
 
 function generateConfirmation() {
-    // Vornamen einfüllen (in <span> Tag)
+   
     document.getElementById("vorname").innerText = sessionStorage.getItem("vorname");
 
-    // Nachnamen einfüllen...
+   
 }
