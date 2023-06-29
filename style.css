@@ -43,3 +43,7 @@ p {
 .Kommentar { 
     margin-top: 20px;
 }
+
+.language-label { 
+    font-size: 22px; 
+}
